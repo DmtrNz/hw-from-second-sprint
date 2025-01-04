@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hw-from-second-sprint/static/css/main.fc3f9c55.css",
+    "main.js": "/hw-from-second-sprint/static/js/main.06a4888d.js",
+    "static/js/787.66cb4309.chunk.js": "/hw-from-second-sprint/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/hw-from-second-sprint/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/hw-from-second-sprint/index.html",
+    "main.fc3f9c55.css.map": "/hw-from-second-sprint/static/css/main.fc3f9c55.css.map",
+    "main.06a4888d.js.map": "/hw-from-second-sprint/static/js/main.06a4888d.js.map",
+    "787.66cb4309.chunk.js.map": "/hw-from-second-sprint/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc3f9c55.css",
+    "static/js/main.06a4888d.js"
+  ]
+}
