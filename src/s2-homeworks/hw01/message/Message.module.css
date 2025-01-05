@@ -15,8 +15,8 @@
 }
 
 .imageAndText img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-left: 10px;
 }
@@ -26,8 +26,9 @@
     flex-direction: column;
     background-color: #06c;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 10px;
     width: fit-content;
+    word-wrap: break-word;
 }
 
 .name {
@@ -54,4 +55,10 @@
     font-size: 10px;
     color: #000;
     margin-right: 8px;
+}
+
+.angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 100% 0, rgba(0,0,0,0) 15px, #06c 0);
 }
