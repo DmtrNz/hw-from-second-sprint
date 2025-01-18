@@ -1,20 +1,13 @@
 import React, { ChangeEvent, KeyboardEvent, useState } from 'react'
 import Greeting from './Greeting'
 import { UserType } from './HW3'
-/*
-* 4 - в файле GreetingContainer.tsx дописать типизацию пропсов DONE
-* 5 - в файле GreetingContainer.tsx указать нужные типы в useState с name и error DONE
-* 6 - в файле GreetingContainer.tsx дописать тип и логику функции setNameCallback
-* 7 - в файле GreetingContainer.tsx дописать логику функций pureAddUser, pureOnBlur, pureOnEnter и проверить их тестами
-* 8 - в файле GreetingContainer.tsx вычислить количество добавленных и имя последнего (totalUsers, lastUserName) DONE
-*/
 
 type GreetingContainerPropsType = {
     users: UserType[] // need to fix any DONE
     addUserCallback: (name: string) => void // need to fix any DONE
 }
 
-export const pureAddUser = (name: string, setError: any, setName: any, addUserCallback: any) => {
+export const pureAddUser = (name: string, setError: React.Dispatch<React.SetStateAction<string>>, setName: React.Dispatch<React.SetStateAction<string>>, addUserCallback: (name: string) => void) => {
     if (name.trim()) {
         addUserCallback(name);
         setError("");
@@ -27,13 +20,13 @@ export const pureAddUser = (name: string, setError: any, setName: any, addUserCa
     }
 }// если имя пустое - показать ошибку, иначе - добавить юзера и очистить инпут DONE
 
-export const pureOnBlur = (name: string, setError: any) => { 
+export const pureOnBlur = (name: string, setError: React.Dispatch<React.SetStateAction<string>>) => { 
     if(!name.trim()){
         setError("Ошибка! Введите имя!")
     }
 }// если имя пустое - показать ошибку DONE
 
-export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: any) => { 
+export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: ()=>void) => { 
     if(e.key==="Enter" ){
         addUser()
     }
