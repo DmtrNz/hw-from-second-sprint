@@ -4,7 +4,16 @@
 
 .header {
     display: flex;
+    background-color: white;
     justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 50px;
+    position: sticky; /* Фиксированное позиционирование */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; /* Убедитесь, что хэдер поверх сайдбара */
 }
 
 .header h1 {

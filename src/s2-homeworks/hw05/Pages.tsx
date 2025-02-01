@@ -18,7 +18,6 @@ function Pages() {
             <Routes>
                 {/*роутинг будут писать студенты*/}
                 <Route path="/" element={<Navigate to={PATH.PRE_JUNIOR}/>} />
-                <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>} />
 
                 {/*роуты для /pre-junior, /junior, /junior-plus*/}
                 <Route path={PATH.PRE_JUNIOR} element={<PreJunior/>} />
