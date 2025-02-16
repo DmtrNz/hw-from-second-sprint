@@ -1,4 +1,5 @@
 .button {
+    cursor: pointer;
     border-radius: 3px;
     border: none;
     padding: 5px 24px;
@@ -14,6 +15,7 @@
     background: #004d99;
     opacity: 0.5;
     color: #002e5c;
+    cursor: not-allowed;
 }
 
 .secondary {
