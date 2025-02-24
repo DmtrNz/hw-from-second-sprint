@@ -28,8 +28,8 @@ const initialPeople: UserType[] = [
 ]
 
 const HW8 = () => {
-    const [people, setPeople] = useState<UserType[]>(initialPeople)
-    const [currentSort, setCurrentSort] = useState('')
+    const [people, setPeople] = useState<UserType[]>(initialPeople);
+    const [currentSort, setCurrentSort] = useState('');
 
     const finalPeople = people.map((u: UserType) => <User key={u._id} u={u}/>)
 

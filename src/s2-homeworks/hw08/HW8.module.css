@@ -1,23 +1,67 @@
 .item {
+    display: flex;
+    padding: 16px;
+
+    td {
+        flex: 1 1 50%;
+    }
 }
 
-.item:last-of-type {
+.item:not(:last-of-type) {
+    border-bottom: 1px solid #E5E5E5;
+
 }
 
 .users {
+    display: block;
+
+    tbody {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-bottom: 18px;
 }
 
-.container {
+div.container {
+    padding-top: 8px;
+    width: 606px;
+    &:first-child {
+        margin: 0;
+
+    }
+
 }
 
 .thead {
+    padding: 10px 16px;
+    display: block;
+    background-color: #E5E5E5;
+
+    tr {
+        display: flex;
+
+        td {
+            flex: 1 1 50%;
+        }
+    }
 }
 
 .nameCol {
+    /* font-family: Roboto, sans-serif;*/
+
+    font-weight: 600;
+    line-height: 1.2;
+
+
 }
 
 .ageCol {
+    font-weight: 600;
+    line-height: 1.2;
 }
