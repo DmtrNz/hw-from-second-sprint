@@ -18,11 +18,6 @@ export const homeWorkReducer = (state: UserType[] = initialState, action: Action
                 }
                 default: { return state }
             }
-
-            ///up
-
-
-            ///down
         }
 
         case 'check': {
