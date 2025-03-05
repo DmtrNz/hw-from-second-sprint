@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/hw-from-second-sprint/static/css/main.ab2ce3e0.css",
-    "main.js": "/hw-from-second-sprint/static/js/main.ea7eaf6f.js",
+    "main.css": "/hw-from-second-sprint/static/css/main.b8ae0a6f.css",
+    "main.js": "/hw-from-second-sprint/static/js/main.9b874cb4.js",
     "static/js/787.66cb4309.chunk.js": "/hw-from-second-sprint/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hw-from-second-sprint/static/media/avatar.d947cb9d0d13765666b6.png",
-    "static/media/404.svg": "/hw-from-second-sprint/static/media/404.dae7af4892f2a3abe805a174178919f2.svg",
-    "static/media/closeOutline.svg": "/hw-from-second-sprint/static/media/closeOutline.91a6693133923612a0702421ab3e9923.svg",
-    "static/media/editIcon.svg": "/hw-from-second-sprint/static/media/editIcon.11c8e1c42f9a4eae81897d68e091eb42.svg",
-    "static/media/chevron-down.svg": "/hw-from-second-sprint/static/media/chevron-down.70da4d4f01beb7ae2174.svg",
-    "static/media/checked.svg": "/hw-from-second-sprint/static/media/checked.0b6a1bcf5d417ff0a947.svg",
+    "static/media/404.svg": "/hw-from-second-sprint/static/media/404.9ec31c0ba8d95b0480272e46af98c955.svg",
+    "static/media/closeOutline.svg": "/hw-from-second-sprint/static/media/closeOutline.b64ba402fac8a549bc2de97e9cf84a61.svg",
+    "static/media/editIcon.svg": "/hw-from-second-sprint/static/media/editIcon.0a0cefd2190b593b4f76bb1a5afe0c1f.svg",
+    "static/media/chevron-down.svg": "/hw-from-second-sprint/static/media/chevron-down.dc1bc44c12d489302229.svg",
+    "static/media/checked.svg": "/hw-from-second-sprint/static/media/checked.b75ca55e8759862b4083.svg",
     "index.html": "/hw-from-second-sprint/index.html",
-    "static/media/burger.svg": "/hw-from-second-sprint/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.ab2ce3e0.css.map": "/hw-from-second-sprint/static/css/main.ab2ce3e0.css.map",
-    "main.ea7eaf6f.js.map": "/hw-from-second-sprint/static/js/main.ea7eaf6f.js.map",
+    "static/media/burger.svg": "/hw-from-second-sprint/static/media/burger.700e416f7bfe3697f96b36c778d25355.svg",
+    "main.b8ae0a6f.css.map": "/hw-from-second-sprint/static/css/main.b8ae0a6f.css.map",
+    "main.9b874cb4.js.map": "/hw-from-second-sprint/static/js/main.9b874cb4.js.map",
     "787.66cb4309.chunk.js.map": "/hw-from-second-sprint/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab2ce3e0.css",
-    "static/js/main.ea7eaf6f.js"
+    "static/css/main.b8ae0a6f.css",
+    "static/js/main.9b874cb4.js"
   ]
 }
