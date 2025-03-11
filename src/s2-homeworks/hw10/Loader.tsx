@@ -1,3 +1,10 @@
-import s from './Loader.module.css'
+import s from './Loader.module.css';
+import loadingImage from './Loading.svg'; 
 
-export const Loader = () => <div className={s.loader}/>
+export function Loader() {
+    return (
+        <div className={s.loader}>
+            <img src={loadingImage} alt="Loading..." />
+        </div>
+    );
+}
