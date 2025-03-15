@@ -1,4 +1,3 @@
-import React from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import {AppStoreType} from './bll/store'
 import {loadingAC} from './bll/loadingReducer'
