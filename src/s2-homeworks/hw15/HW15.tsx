@@ -57,6 +57,12 @@ const HW15 = () => {
 
           setTotalCount(res.data.totalCount)
         }
+
+        // делает студент
+
+        // сохранить пришедшие данные
+
+        //
       })
       .finally(() => {
         setLoading(false)
@@ -64,17 +70,34 @@ const HW15 = () => {
   }
 
   const onChangePagination = (newPage: number, newCount: number) => {
+    // делает студент
 
+    // setPage(
+    // setCount(
+
+    // sendQuery(
+    // setSearchParams(
+    /*  const lastPage = Math.ceil(totalCount/newCount);*/
+    //
     const params = { count: `${newCount}`, page: `${newPage}` };
     setPage(newPage);
     setCount(+newCount);
     setSearchParams(params);
     sendQuery(params)
 
+
   }
 
   const onChangeSort = (newSort: string) => {
+    // делает студент
 
+    // setSort(
+    // setPage(1) // при сортировке сбрасывать на 1 страницу
+
+    // sendQuery(
+    // setSearchParams(
+
+    //
     const params = { count: `${count}`, page: `${1}`, sort: `${newSort}` };
     setSort(newSort);
 
@@ -104,6 +127,8 @@ const HW15 = () => {
 
   return (
     <div id={'hw15'}>
+
+
 
       <div className={s2.hwTitle}>Homework #15</div>
 

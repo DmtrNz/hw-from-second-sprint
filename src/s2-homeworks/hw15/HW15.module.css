@@ -1,6 +1,4 @@
-.tech {
-  /*width: 20vw;*/
-}
+.tech {}
 
 .developer {}
 
@@ -56,6 +54,8 @@
 }
 
 .loading {
+
+
   position: absolute;
   top: 50%;
   left: 50%;

@@ -1,3 +1,4 @@
+import React from 'react'
 import { pureChange } from '../SuperSort'
 
 test('sort ""', () => {
