@@ -41,7 +41,7 @@ const SuperPagination: React.FC<SuperPaginationPropsType> = (
                     // стили для Pagination // пишет студент
 
 
-                    '.MuiPaginationItem-root': {
+                    '& .MuiPaginationItem-root': {
                         margin: '0 4px', // Отступы между кнопками
                         borderRadius: '0.2rem',
                         backgroundColor: 'none',
