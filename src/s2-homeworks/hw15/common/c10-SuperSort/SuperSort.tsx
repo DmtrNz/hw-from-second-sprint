@@ -1,7 +1,7 @@
 import React from 'react'
-import UP from '../../../../accets/PolygonUp.svg';
-import DOWN from '../../../../accets/PolygonDown.svg';
-import NONE from '../../../../accets/None.svg';
+import UP from '../../../../accets/gallery/PolygonUp.svg';
+import DOWN from '../../../../accets/gallery/PolygonDown.svg';
+import NONE from '../../../../accets/gallery/None.svg';
 // добавить в проект иконки и импортировать
 const downIcon = DOWN;
 const upIcon = UP
@@ -17,8 +17,7 @@ export type SuperSortPropsType = {
 
 export const pureChange = (sort: string, down: string, up: string) => {
   // пишет студент, sort: (click) => down (click) => up (click) => '' (click) => down ...
-  return sort === down ? up : sort === up ? '' : down
-  /*up*/ // исправить
+  return sort === down ? up : sort === up ? '' : down  /*up*/ // исправить
 }
 
 const SuperSort: React.FC<SuperSortPropsType> = (
